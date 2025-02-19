@@ -11,9 +11,9 @@ class Usuario extends Model
 {
     use HasFactory;
 
-    protected $table = 'usuario';
+    protected $table = 'Usuario';
     protected $primaryKey = 'id_usuario';
-    public $timestamps = true;
+    public $timestamps = false;
 
     protected $fillable = [
         'nombre',
